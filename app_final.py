@@ -39,4 +39,4 @@ def finalresult():
                                        Q5=results[4]['question'],A5=results[4]['answer'])
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   app.run()
