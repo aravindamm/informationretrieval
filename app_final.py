@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-import pandas as pd
 from whoosh.fields import Schema, TEXT
 from whoosh import index
 from whoosh import qparser
@@ -12,7 +11,7 @@ app = Flask(__name__,template_folder='flask-app/templates')
 def home():
    return render_template('home.html')
 
-@app.route('/finalresult',methods = ['POST'])
+@app.route('/finalresult',methods=['POST','GET'])
 def finalresult():
     if request.method == 'POST':
             #search query 
