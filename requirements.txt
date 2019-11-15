@@ -17,14 +17,6 @@ nltk
 sqlalchemy
 jieba
 BeautifulSoup
-#pip install beautifulsoup4
-
-lxml
-#pip install lxml
-
-nose
-#pip install nose
-
 pyenchant
 lockfile
 execnet
@@ -32,3 +24,9 @@ pymongo
 redis
 python-dateutil
 charade
+nupic>=1.0.0
+retinasdk==1.0.0
+pyyaml
+nltk
+pygments
+docutils
