@@ -15,8 +15,6 @@ scrapy
 whoosh
 nltk
 sqlalchemy
-jieba
-BeautifulSoup
 pyenchant
 lockfile
 execnet
